@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="open">
+
+    <div>Player1</div>
+    <input type="text" class="player1"></input>
+    <div>Player2</div>
+    <input type="text" class="player2"></input><br>
+    <button onclick="start()" style="background-color: rgb(0, 255, 136);"> Start</button>
+
+  </div>
+
+
+  <div class="type">
+    <div class="table">
+      <table style="border-collapse: collapse;">
+        <tr>
+          <td class="p1">Player1</td>
+          <td class="p2">Player2</td>
+        </tr>
+        <tr>
+          <td class="score1">0</td>
+          + <td class="score2">0</td>
+        </tr>
+      </table>
+
+    </div>
+    <div class="main">
+      <div class="box" id="0"></div>
+      <div class="box" id="1"></div>
+      <div class="box" id="2"></div>
+    </div>
+
+    <div class="main">
+      <div class="box" id="3"></div>
+      <div class="box" id="4"></div>
+      <div class="box" id="5"></div>
+    </div>
+
+    <div class="main">
+      <div class="box" id="6"></div>
+      <div class="box" id="7"></div>
+      <div class="box" id="8"></div>
+    </div>
+    <div>
+      <button class="re" onclick="reset()" style="background-color: rgb(255, 0, 0); font-size: 20px;">Reset</button>
+      <button onclick=" restart()" style="background-color: rgb(226, 86, 43); font-size: 20px;">Restart</button>
+    </div>
+  </div>
+
+
+
+
+  <script src="java.js"></script>
+</body>
+
+</html>
